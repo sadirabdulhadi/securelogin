@@ -17,7 +17,7 @@
       $host = 'us-cdbr-azure-southcentral-f.cloudapp.net';
 
       // $this->con = mysqli_connect($host, $user, $pass, $db);
-      $this->con = new PDO('mysql:dbname=website;host=localhost;charset=utf8', 'root', 'root');
+      $this->con = new PDO('mysql:dbname=snippetso;host=us-cdbr-azure-southcentral-f.cloudapp.net;charset=utf8', 'b386ce9430f4ed', '1d1332d4');
 
 $this->con->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
 $this->con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
