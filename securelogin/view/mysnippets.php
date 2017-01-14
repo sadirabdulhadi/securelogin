@@ -10,7 +10,7 @@ $token = $_SESSION['token'];
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Signup Page</title>
+	<title>My Snippets</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
 	<meta charset="utf-8">

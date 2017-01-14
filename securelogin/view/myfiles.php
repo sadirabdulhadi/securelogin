@@ -7,7 +7,7 @@ $files = $model->get_files($_SESSION['username']);
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Files Page</title>
+	<title>My Files</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
 	<meta charset="utf-8">

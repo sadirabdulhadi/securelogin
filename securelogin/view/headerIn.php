@@ -37,7 +37,7 @@ if(isset($_SESSION['IPaddress']) && isset($_SESSION['userAgent']))
   <div class="container-fluid" style="font-family: 'Quicksand', sans-serif;">
     <div class="navbar-header">
      
-      <a class="navbar-brand" href="#">Secure</a>
+      <a class="navbar-brand" href="#"><strong>Secure Website</strong></a>
     </div>
     <ul class="nav navbar-nav">
     <li>

@@ -10,7 +10,7 @@ $token = $_SESSION['token'];
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Upload a file</title>
+	<title>File Upload</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
 	<meta charset="utf-8">

@@ -1,9 +1,9 @@
 <?php
+session_start();
 // ini_set('display_errors', 1);
 // ini_set('display_startup_errors', 1);
 // error_reporting(E_ALL);
 	if($_POST){
-
 		if (hash_equals($_SESSION['token'], $_POST['token'])) {
 			require ('../model/UserModel.php');
 			$model = new UserModel();
@@ -16,7 +16,6 @@
 				// $options = [
 			 //    'salt' => $username,
 				// ];
-
 				$encrypted = password_hash($password, PASSWORD_BCRYPT);
 
 				$id = $model->create_user($username, $encrypted);
