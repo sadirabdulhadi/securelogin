@@ -49,7 +49,7 @@ if (isset($_SESSION['username'])) { ?>
 		<?php foreach($files as $file) { ?>
 		
 		<div class="alert alert-dismissible alert-info">
-			<a href="<?= $file['url'] ?>">$file['filepath']</a>
+			<a href="<?= $file['url'] ?>"><?php $file['filepath'] ?></a>
 	<!-- <button class="btn btn-primary" type="button" class="close" data-dismiss="alert">&times;</button> -->
 	<?php echo $snippet['content']; ?>
 		<!-- <button class="btn btn-primary close" type="submit" name="delete" value="<?= $snippet['id'] ?>">&times; Delete</button> -->
