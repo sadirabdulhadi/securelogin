@@ -58,7 +58,7 @@ if ($uploadOk == 0) {
         require ('../model/FileUploadModel.php');
 		$model = new UploadFileModel();
 		$username = $_SESSION['username'];
-        $url = "http://localhost:8888/securelogin/resources1/uploads/".$username. "/". $new_Filename;
+        $url = "http://snippetso.azurewebsites.net/securelogin/resources1/uploads/".$username. "/". $new_Filename;
 		$model->create_fileentry($username, $target_file, $url);
 		// echo "***Your file is accessible at http://localhost:8888/resources/uploads/".$username. "/". $new_Filename;
 		header('Location:../view/myfiles.php');
