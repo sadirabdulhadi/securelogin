@@ -11,10 +11,10 @@
       //   $pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;
       //   $this->con = new PDO('mysql:host=localhost;dbname=website', 'root', 'root', $pdo_options);
       // }
-      $user = 'uclteamo';
-      $pass = 'UCLteam0';
-      $db = 'general';
-      $host = 'http://uclteamo.azurewebsites.net';
+      $user = 'b386ce9430f4ed';
+      $pass = '1d1332d4';
+      $db = 'snippetso';
+      $host = 'us-cdbr-azure-southcentral-f.cloudapp.net';
 
       // $this->con = mysqli_connect($host, $user, $pass, $db);
       $this->con = new PDO('mysql:dbname=website;host=localhost;charset=utf8', 'root', 'root');
